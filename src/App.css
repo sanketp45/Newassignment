@@ -1,0 +1,323 @@
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+}
+.brands{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+  word-wrap: break-word;
+}
+.brands > div
+{
+ 
+  font-size: 25px;
+  font-weight: lighter;
+  margin:10px;
+  padding: 2em;
+}
+.description
+{
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  font-weight: lighter;
+}
+.loginimage {
+  margin-top: 20px;
+  padding: 5px;
+ display: grid;
+/* grid-template-columns: repeat(12, [col-start] 2fr);*/
+ grid-template-columns: 2fr 2fr;
+ grid-gap: 1em;
+
+
+
+}
+
+.nav {
+  background-color:steelblue;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+@media (min-width: 600px) {
+  .bootstrapinfo {
+    font-size: 50px;
+   display: grid;
+     grid-template-columns: 1fr 1fr 
+  }
+  
+}
+.loginimage > div{
+  
+  word-wrap: break-word;
+}
+.bootstrapinfo
+{
+  display: grid;
+  grid-template-columns:2fr 2fr ;
+ 
+}
+.bootstrapthemes{
+  margin-left: 15px;
+   font-size: 25px;
+
+}
+.bootstrapthemes > p{
+  font-size: 25px;
+  font-weight: lighter;
+}
+.points
+{
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   grid-column-gap: 6em;
+   grid-row-gap: 1em;
+   font-weight:400;
+}
+.loginimage >div{
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 5rem;
+}
+.description > div{
+font-size: 25px;
+
+}
+ .wrapper > div{
+
+padding: 1em;
+
+
+ }
+ .support{
+   display: grid;
+   grid-template-columns: 50% 50%;
+
+ }
+ 
+ .values{
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+  text-align: center;
+  
+  align-items: center; 
+ }
+ .values >h2 >span
+ {
+   display: block;
+ }
+ .values > p >span{
+   display: block;
+   font-weight: lighter;
+   font-size: 25px;
+ }
+ .salesdata{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 1em;
+ }
+ .salesdata > p >span{
+   display: block;
+   font-size: 25px;
+ }
+ .info{
+   font-size: 25px;
+
+ }
+.info > button{
+
+margin-left: 16px;
+border-radius: .2em;
+box-sizing: border-box;
+}
+.userresponse
+{
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  word-wrap: normal;
+  font-size: 25px;
+  
+}
+.userresponse >p{
+  
+  margin-top: -10px;
+}
+.userresponse  > p >span{
+    font-weight: lighter;
+  display: block;
+  padding: .2em;
+  
+ 
+}
+.analysisimage
+{
+  height: auto;
+  width: a;
+}
+.pricing
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+
+}
+.pricing  > p >span
+{
+ 
+  display: block;
+  font-size: 25px;
+  font-weight: lighter;
+
+}
+.meeting {
+  display: grid;
+  grid-template-columns: 50% 50%;
+ margin-top: 10px;  
+}
+.meeting > div >img{
+ 
+padding: 5em;
+ 
+ 
+clip-path: circle(100% at -20% 50%);
+}
+.airbnb{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  margin:10px;
+  padding: 5px;
+}
+.meeting >div >p>span
+{
+
+  font-weight: lighter;
+  display: block;
+  padding: .2em;
+  font-size: 25px;
+}
+.photo > img {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+.cards {
+  margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+}
+.column {
+ 
+  float: left;
+  width: 25%;
+  height: 500px;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.qna{
+  
+   margin-bottom: 5em ; 
+  justify-items: center;
+   font-size: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-gap: 1em;
+}
+.qna > p >span {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.bcgrndcolor
+{
+  background-color:steelblue;
+  clip-path:polygon(0 0,100% 30px, 100% 100%,0 100% );
+
+
+}
+.buy{
+ display: flex;
+ flex-direction: column;
+ justify-items: center;
+ align-items: center;
+margin-bottom: 15px;
+}
+.buyinfo >  p  >span
+{
+  display: block;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+
+.buttons {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 20px;
+}
+.footer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+.footer >div{
+ 
+  font-size: 25px;
+  font-weight:300;
+}
